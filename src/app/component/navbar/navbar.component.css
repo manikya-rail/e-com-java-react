@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+nav{
+    font-family: 'Poppins-Regular';
+    font-size: 15px;
+    color: #333;
+    padding: 5px 0px;
+}
+
+.hidden-spacer {
+    height: 56px
+}
+.bg-dark{
+    background-color: white !important;
+}
+.active{
+    background-color: red;
+}
+
+
+

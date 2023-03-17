@@ -1,0 +1,13 @@
+#carouselExampleIndicators{
+    margin-top: -20px;
+}
+.carousel-caption{
+    margin-right: 600px;
+    margin-bottom: 200px;
+   
+}
+.slider-caption{
+    font-size:50px;
+    display: inline;
+    width: 300px;
+}

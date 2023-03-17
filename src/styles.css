@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import "src/assets/css/main.css";
+@import "src/assets/vendor/bootstrap/css/bootstrap.min.css";
+@import "src/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css";
+@import "src/assets/fonts/iconic/css/material-design-iconic-font.min.css";
+@import "src/assets/fonts/linearicons-v1.0.0/icon-font.min.css";
+@import "src/assets/vendor/animate/animate.css";
+@import "src/assets/vendor/css-hamburgers/hamburgers.min.css";
+/* @import "src/assets/vendor/animsition/css/animsition.min.css"; */
+@import "src/assets/vendor/select2/select2.min.css";
+@import "src/assets/vendor/daterangepicker/daterangepicker.css";
+@import "src/assets/vendor/slick/slick.css";
+@import "src/assets/vendor/MagnificPopup/magnific-popup.css";
+@import "src/assets/vendor/perfect-scrollbar/perfect-scrollbar.css";
+@import "src/assets/css/util.css";
