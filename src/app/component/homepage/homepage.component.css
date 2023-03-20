@@ -4,10 +4,48 @@
 .carousel-caption{
     margin-right: 600px;
     margin-bottom: 200px;
+    text-align: left;
    
 }
 .slider-caption{
     font-size:50px;
-    display: inline;
+    display: flex;
     width: 300px;
+    color:black;
+}
+.slider-subcaption{
+    color: black;
+}
+#shop-now{
+      border-radius: 50px;
+      background-color: #717fe0;
+      color:white;
+}
+.block1-name{
+    text-decoration:none;
+    
+}
+.block1-txt-child1{
+    text-decoration: none;
+}
+.block-namess{
+  
+    color:black;
+
+}
+a{
+    text-decoration: none;
+}
+
+@media only screen and (max-device-width: 810px){
+
+    .carousel-caption{
+      
+        padding-top:900px;
+      
+        text-align: left;
+       
+    }
+
+
 }
