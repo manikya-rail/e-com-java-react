@@ -37,11 +37,11 @@ a{
     text-decoration: none;
 }
 
-@media only screen and (max-device-width: 810px){
+@media only screen and (min-width: 700px){
 
     .carousel-caption{
       
-        padding-top:900px;
+        margin-top:200px;
       
         text-align: left;
        
