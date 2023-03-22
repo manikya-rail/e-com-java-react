@@ -11,6 +11,10 @@ import { HomepageComponent } from './component/homepage/homepage.component';
 import { ProductsComponent } from './component/products/products.component';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AboutComponent } from './component/about/about.component';
+import { ContactComponent } from './component/contact/contact.component';
+import { ComponentComponent } from './component/component.component';
+import { CartComponent } from './component/cart/cart.component';
 
 
 
@@ -21,7 +25,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NavbarComponent,
         FooterComponent,
     HomepageComponent,
-    ProductsComponent
+    ProductsComponent,
+    AboutComponent,
+    ContactComponent,
+    ComponentComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
