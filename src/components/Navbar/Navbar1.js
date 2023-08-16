@@ -25,11 +25,12 @@ export const Navbar1 = () => {
 
   const navColor='white';
   const navLinkColor='black'
+  const navbarDisplay='';
 
   return (
     <>
       {["md"].map((expand) => (
-        <Navbar key={expand} expand={expand} className={`bg-${navColor} mb-3`} style={{backgroundColor:navColor}}>
+        <Navbar key={expand} expand={expand} className={`bg-${navColor} mb-3 shadow-sm`} style={{backgroundColor:navColor,display:navbarDisplay}}>
           <Container fluid>
             <Navbar.Brand href="#">{clientName}</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
